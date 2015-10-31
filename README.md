@@ -47,7 +47,21 @@ Querying
 --------
 
 The [Neo4j browser](http://blog.neo4j.org/2013/10/neo4j-200-m06-introducing-neo4js-browser.html) can be used to query and visualise
-the imported graph. Here are some sample Cypher queries.
+the imported graph. 
+Just go to the command line and navigate into your Neo4j directory. There you can start Neo4j via 
+
+    bin/neo4j start 
+    
+on linux or 
+    
+    bin/neo4j.bat
+    
+on windows. 
+
+The console output will give you directions where you can find the Neo4j browser, typically its http://localhost:7474/ .
+
+
+Here are some example Cypher queries.
 
 Show all pages linked to a given starting page - e.g. "Neo4j":
 
